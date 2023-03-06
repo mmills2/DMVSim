@@ -5,14 +5,14 @@ public class DMVSimulator {
 
          // instance variables
          Random randoTron9001 = new Random();
-         int randNum = randoTron9001.nextInt(100) + 1; // +1 so its 1-100 not 0-99
+         int randNum = randoTron9001.nextInt(200) + 1; // +1 so its 1-100 not 0-99
 
          // welcome message and assigned number
          System.out.println("Welcome to the happiest place on earth.\nYour number is " + randNum + ".");
 
          // calling out assigned number after all others
-         for(int i = 1; i <= 100; i++){
-            if(randNum < 100){
+         for(int i = 1; i <= 200; i++){
+            if(randNum < 200){
                 randNum += 1;
             }
             else{
