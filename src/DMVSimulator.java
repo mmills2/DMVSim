@@ -28,7 +28,7 @@ public class DMVSimulator {
          }
          else{
             System.out.println("It looks like you are missing the signed letter from the doctor that birthed you.");
-            System.out.println("Please come back when you have everything requested.");
-         }
+            System.out.println("Please come back when you have everything requested. mwahahahaha!");
+        }
     }
 }
