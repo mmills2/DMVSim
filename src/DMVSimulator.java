@@ -22,6 +22,7 @@ public class DMVSimulator {
          }
 
          // depart message
-         System.out.println("You have everything but one document that'll take weeks to get. See ya.");
+         System.out.println("It looks like you are missing the signed letter from the doctor that birthed you.");
+         System.out.println("Please come back when you have everything requested.");
     }
 }
